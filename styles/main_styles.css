@@ -334,10 +334,17 @@ section
 3.1 Header - Logo
 *********************************/
 
-.logo a
+.logo a 
 {
 	font-family: 'Lucida', serif;
 	font-size: 30px;
+	color: #2f2f2f;
+}
+.logo_reggion
+{
+	font-family: 'Benne', Montserrat;
+	font-size: 15px;
+	font-style: italic;
 	color: #2f2f2f;
 }
 
@@ -454,7 +461,7 @@ section
 	margin-right: 0;
 }
 .cart_num_container,
-.star_num_container
+.bag_num_container
 {
 	position: absolute;
 	top: 13px;
@@ -465,13 +472,13 @@ section
 	border-radius: 50%;
 }
 .cart_num_inner,
-.star_num_inner
+.bag_num_inner
 {
 	width: 100%;
 	height: 100%;
 }
 .cart_num,
-.star_num
+.bag_num
 {
 	position: absolute;
 	top: 50%;
@@ -485,12 +492,17 @@ section
 	font-weight: 600;
 	color: #FFFFFF;
 }
-.star img
+.bag img
 {
 	width: 20px;
 	height: 20px;
 }
 .avatar img
+{
+	width: 20px;
+	height: 20px;
+}
+.cart img
 {
 	width: 20px;
 	height: 20px;

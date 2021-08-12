@@ -124,14 +124,7 @@ p a:hover::after
 {
 	opacity: 0.2;
 }
-::selection
-{
-	
-}
-p::selection
-{
-	
-}
+
 h1{font-size: 48px;}
 h2{font-size: 36px;}
 h3{font-size: 24px;}
@@ -144,15 +137,7 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
-h6::selection
-{
-	
-}
+
 .form-control
 {
 	color: #db5246;
@@ -246,10 +231,7 @@ section
 {
 	padding: 0px !important;
 }
-.section_title_container
-{
 
-}
 .section_subtitle
 {
 	font-size: 14px;
@@ -340,6 +322,13 @@ section
 {
 	font-family: 'Lucida', serif;
 	font-size: 30px;
+	color: #2f2f2f;
+}
+.logo_reggion
+{
+	font-family: 'Benne', Montserrat;
+	font-size: 15px;
+	font-style: italic;
 	color: #2f2f2f;
 }
 
@@ -456,7 +445,7 @@ section
 	margin-right: 0;
 }
 .cart_num_container,
-.star_num_container
+.bag_num_container
 {
 	position: absolute;
 	top: 13px;
@@ -467,13 +456,13 @@ section
 	border-radius: 50%;
 }
 .cart_num_inner,
-.star_num_inner
+.bag_num_inner
 {
 	width: 100%;
 	height: 100%;
 }
 .cart_num,
-.star_num
+.bag_num
 {
 	position: absolute;
 	top: 50%;
@@ -487,12 +476,9 @@ section
 	font-weight: 600;
 	color: #FFFFFF;
 }
-.star img
-{
-	width: 20px;
-	height: 20px;
-}
-.avatar img
+.bag img,
+.avatar img,
+.cart img
 {
 	width: 20px;
 	height: 20px;
